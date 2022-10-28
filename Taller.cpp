@@ -3,11 +3,11 @@ using namespace std;
 int main(){
     int T;
     cin>>T;
-    int X;
+    int X,Y;
    
     for(int i=0; i<T; i++){
-        cin>>X;
-        if(X>=30) cout<<"YES"<<endl;   
-        else cout<<"NO"<<endl;   
+        cin>>X>>Y;
+        if(X>Y) cout<<"A"<<endl;   
+        else cout<<"B"<<endl;   
     }
 }
